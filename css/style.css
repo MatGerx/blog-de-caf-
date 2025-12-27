@@ -27,7 +27,7 @@ body {
 }
 
 .contenedor {
-  width: min(90%, 120rem);
+  width: min(100%, 120rem);
   margin: 0 auto;
 }
 
@@ -310,12 +310,12 @@ img {
 
 .campo__label {
   flex: 0 0 9rem;
-  text-align: center;
+  padding-right: 2rem;
+  text-align: right;
 }
 
 .campo__field {
   flex: 1;
-  padding-right: 2rem;
   border: 1px solid var(--gris);
 }
 
