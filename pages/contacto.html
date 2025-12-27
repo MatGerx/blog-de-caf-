@@ -4,29 +4,30 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Blog de Café</title>
-    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="../css/normalize.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="../css/style.css" />
   </head>
+
   <body>
     <header class="header">
       <div class="contenedor">
         <div class="barra">
-          <a href="index.html" class="logo">
+          <a href="../index.html" class="logo">
             <h1 class="logo__nombre no-margin centrar-texto">
               Blog <span class="logo__bold">DeCafé</span>
             </h1>
           </a>
 
           <nav class="navegacion">
-            <a href="./nosotros.html" class="navegacion__enlace">Nosotros</a
-            ><a href="./cursos.html" class="navegacion__enlace">Curso</a
-            ><a href="./contacto.html" class="navegacion__enlace">Contacto</a>
+            <a href="./nosotros.html" class="navegacion__enlace">Nosotros</a>
+            <a href="./cursos.html" class="navegacion__enlace">Curso</a>
+            <a href="./contacto.html" class="navegacion__enlace">Contacto</a>
           </nav>
         </div>
       </div>
@@ -45,9 +46,7 @@
 
       <form class="formulario">
         <div class="campo">
-          <label class="campo__label" for="nombre" class="campo__label"
-            >Nombre</label
-          >
+          <label class="campo__label" for="nombre">Nombre</label>
           <input
             type="text"
             placeholder="Tu Nombre"
@@ -55,6 +54,7 @@
             class="campo__field"
           />
         </div>
+
         <div class="campo">
           <label class="campo__label" for="email">E-mail</label>
           <input
@@ -64,10 +64,10 @@
             class="campo__field"
           />
         </div>
+
         <div class="campo">
           <label class="campo__label" for="mensaje">Mensaje</label>
           <textarea
-            name=""
             id="mensaje"
             class="campo__field campo__field--textarea"
           ></textarea>
@@ -80,17 +80,18 @@
     </main>
 
     <footer class="footer">
-      <a href="index.html" class="logo">
+      <a href="../index.html" class="logo">
         <h1 class="logo__nombre centrar-texto">
           Blog<span class="logo__bold">DeCafé</span>
         </h1>
       </a>
 
       <div class="navegacion navegacion__footer">
-        <a href="./nosotros.html" class="navegacion__enlace">Nosotros</a
-        ><a href="./cursos.html" class="navegacion__enlace">Curso</a
-        ><a href="./contacto.html" class="navegacion__enlace">Contacto</a>
+        <a href="./nosotros.html" class="navegacion__enlace">Nosotros</a>
+        <a href="./cursos.html" class="navegacion__enlace">Curso</a>
+        <a href="./contacto.html" class="navegacion__enlace">Contacto</a>
       </div>
     </footer>
+    <script src="../js/modernizr.js"></script>
   </body>
 </html>
